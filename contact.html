@@ -41,12 +41,34 @@
         <div class="form-container">
           <h2>Contact Us</h2>
           <form class="form" name="contact" method="POST" data-netlify="true">
-              <label>Your Name: <input type="text" name="name" /></label>   
-              <label>Your Email: <input type="email" name="email" /></label>
-              <label>Message: <textarea name="message"></textarea></label>
+              <label for="name">Your Name:</label>
+              <input id="name" type="text" name="name" required/>
+              <label for="email">Your Email:</label>
+              <input id="email" type="email" name="email" required validation/>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
               <button class="btn" type="submit">Submit</button>
           </form>
         </div>
+    </section>
+    <section class="contact-info">
+      <div class="contact-container">
+        <div class="box">
+          <i class="fas fa-map-marked-alt fa-3x"></i>
+          <h3>Address</h3>
+          <p>	617/9 Issarapharp Road Wat Arun<br>Krabi, 10600</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Phone</h3>
+          <p>+66 2 255 0879</p>
+        </div>
+        <div class="box">
+          <i class="far fa-envelope fa-3x"></i>
+          <h3>Email</h3>
+          <p>HIL@mailinator.com</p>
+        </div>
+      </div>
     </section>
       <footer>
           <div class="footer-container">
