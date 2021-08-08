@@ -111,13 +111,15 @@ a {
     font-size: 5rem;
     line-height: 6rem;
     margin: 0 1rem 1rem 1rem;
-    font-family: "Great Vibes", cursive;
-    span {
-      font-family: "Montserrat", sans-serif;
-      color: $light-text;
-      font-size: 6rem;
-    }
+    font-family: "Montserrat", sans-serif;
   }
+
+  span {
+    font-family: "Great Vibes", cursive;
+    color: $light-text;
+    font-size: 8rem;
+  }
+
   p {
     width: 80%;
     margin: auto;
@@ -154,7 +156,6 @@ a {
 .details {
   width: 40%;
   margin-right: auto;
-  color: $accent;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,6 +167,7 @@ a {
   h2 {
     font-size: 3rem;
     margin-bottom: 3rem;
+    color: $accent;
   }
   ul {
     padding-bottom: 3rem;
@@ -176,6 +178,7 @@ a {
     font-size: 1.5rem;
     line-height: 4rem;
     margin: 0 4rem;
+    color: #2b2b2b;
   }
 }
 
@@ -222,6 +225,7 @@ i {
     p {
       line-height: 4rem;
       font-size: 1.2rem;
+      padding-bottom: 2rem;
     }
   }
   .right {
@@ -248,37 +252,83 @@ i {
 }
 
 .testimonials-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100%;
-  width: 80%;
+  width: 60%;
   margin: auto;
-
   h2 {
-    font-size: 1.8rem;
-    color: rgb(12, 12, 12);
+    text-align: center;
+    font-size: 2.5rem;
+    color: azure;
     padding: 2rem 0 1rem 0;
   }
-  p {
+  h3 {
     line-height: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     color: azure;
+  }
+  p {
+    line-height: 3rem;
+    font-size: 1.3rem;
+    color: azure;
+    margin-right: 1rem;
   }
   img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin: 0 1rem 2rem 0;
+    margin: 1rem;
   }
 }
 
 .testimonials {
   display: flex;
   align-items: center;
-  margin: 2rem;
+  margin: 2rem 0 4rem 0;
+  background-color: rgba(167, 167, 167, 0.4);
+  border-radius: 12px;
+  box-shadow: 0px 5px 12px 4px #0000005a;
 }
 
 /* CONTACT Main */
 .contact-main {
   min-height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+  }
+}
+
+.form {
+  width: 66vw;
+  height: 66vh;
+  margin: 2rem;
+  background-color: rgba(167, 167, 167, 0.1);
+  border-radius: 12px;
+  box-shadow: 0px 5px 12px 4px #0000005a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .btn {
+    width: 33%;
+  }
+}
+
+.form input,
+textarea {
+  width: 100%;
 }
 
 /* FOOTER */

@@ -130,13 +130,13 @@ a {
   font-size: 5rem;
   line-height: 6rem;
   margin: 0 1rem 1rem 1rem;
-  font-family: "Great Vibes", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
-.hero h1 span {
-  font-family: "Montserrat", sans-serif;
+.hero span {
+  font-family: "Great Vibes", cursive;
   color: #dcb766;
-  font-size: 6rem;
+  font-size: 8rem;
 }
 
 .hero p {
@@ -179,7 +179,6 @@ a {
 .details {
   width: 40%;
   margin-right: auto;
-  color: #7f2b43;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,6 +198,7 @@ a {
 .details h2 {
   font-size: 3rem;
   margin-bottom: 3rem;
+  color: #7f2b43;
 }
 
 .details ul {
@@ -211,6 +211,7 @@ a {
   font-size: 1.5rem;
   line-height: 4rem;
   margin: 0 4rem;
+  color: #2b2b2b;
 }
 
 /* HOME Amenities */
@@ -274,6 +275,7 @@ i {
 .about-main .left p {
   line-height: 4rem;
   font-size: 1.2rem;
+  padding-bottom: 2rem;
 }
 
 .about-main .right {
@@ -306,28 +308,46 @@ i {
 }
 
 .testimonials-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
 .testimonials-container h2 {
-  font-size: 1.8rem;
-  color: #0c0c0c;
+  text-align: center;
+  font-size: 2.5rem;
+  color: azure;
   padding: 2rem 0 1rem 0;
 }
 
-.testimonials-container p {
+.testimonials-container h3 {
   line-height: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   color: azure;
+}
+
+.testimonials-container p {
+  line-height: 3rem;
+  font-size: 1.3rem;
+  color: azure;
+  margin-right: 1rem;
 }
 
 .testimonials-container img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  margin: 0 1rem 2rem 0;
+  margin: 1rem;
 }
 
 .testimonials {
@@ -337,12 +357,71 @@ i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 2rem;
+  margin: 2rem 0 4rem 0;
+  background-color: rgba(167, 167, 167, 0.4);
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 5px 12px 4px #0000005a;
+          box-shadow: 0px 5px 12px 4px #0000005a;
 }
 
 /* CONTACT Main */
 .contact-main {
   min-height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-container h2 {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+}
+
+.form {
+  width: 66vw;
+  height: 66vh;
+  margin: 2rem;
+  background-color: rgba(167, 167, 167, 0.1);
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 5px 12px 4px #0000005a;
+          box-shadow: 0px 5px 12px 4px #0000005a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form .btn {
+  width: 33%;
+}
+
+.form input,
+textarea {
+  width: 100%;
 }
 
 /* FOOTER */
