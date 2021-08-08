@@ -15,7 +15,11 @@ Three page hotel informational website. In this project, I used SASS to write CS
 
 #### Home Section
 
+![home](https://user-images.githubusercontent.com/65702910/128635575-ddf65903-3932-4d7b-9954-00899fd8a6a9.jpg)
+
 #### About Section
+
+![about](https://user-images.githubusercontent.com/65702910/128635581-a8e52673-56cb-449a-887e-79824a2c28ef.jpg)
 
 #### Contact Section
 
