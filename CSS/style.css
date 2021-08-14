@@ -31,6 +31,8 @@ a {
 .btn:hover {
   cursor: pointer;
   background-color: #7f2b43;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
 }
 
 /* Navbar */
@@ -98,6 +100,8 @@ a {
 .navbar ul li a:hover {
   color: #b75d73;
   cursor: pointer;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
 }
 
 /* HOME Hero */
@@ -428,7 +432,8 @@ i {
 }
 
 .form input {
-  width: 400px;
+  min-width: 50%;
+  max-width: 75%;
   height: 30px;
   font-family: sans-serif;
   font-size: 0.9rem;
@@ -443,7 +448,8 @@ i {
 }
 
 .form textarea {
-  width: 500px;
+  min-width: 50%;
+  max-width: 75%;
   height: 200px;
   font-family: sans-serif;
   font-size: 0.9rem;
@@ -469,14 +475,13 @@ i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .contact-container .box {
-  margin: 1rem;
-  width: 33%;
   text-align: center;
 }
 
