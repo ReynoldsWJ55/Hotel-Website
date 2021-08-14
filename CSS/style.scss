@@ -109,7 +109,7 @@ a {
     width: 80%;
     margin: auto;
     font-size: 5rem;
-    line-height: 6rem;
+    line-height: 7rem;
     margin: 0 1rem 1rem 1rem;
     font-family: "Montserrat", sans-serif;
   }
@@ -138,7 +138,7 @@ a {
 }
 
 .details-img {
-  width: 60%;
+  width: 55%;
   height: 70vh;
 
   img {
@@ -155,7 +155,7 @@ a {
 
 .details {
   max-height: 100%;
-  width: 40%;
+  width: 45%;
   margin-right: auto;
   display: flex;
   flex-direction: column;
@@ -166,16 +166,18 @@ a {
 
 .details {
   h2 {
-    font-size: 3rem;
-
+    font-size: 4rem;
     color: $accent;
+    padding-bottom: 2rem;
   }
   li {
     text-transform: capitalize;
     text-align: left;
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 2rem;
     line-height: 4rem;
+    padding-bottom: 1.5rem;
+    margin: 2rem 0;
     color: #2b2b2b;
   }
 }
@@ -191,6 +193,7 @@ a {
   .box {
     width: 90%;
     text-align: center;
+    flex-wrap: wrap;
   }
   h3 {
     margin: 1rem 0;
@@ -401,6 +404,9 @@ footer {
     align-items: center;
     padding: 0.5rem 0;
   }
+  .nav-links a {
+    padding: 1rem;
+  }
   .hero h1 {
     font-size: 1.5rem;
   }
@@ -412,10 +418,11 @@ footer {
   }
   .details-section {
     h2 {
-      font-size: 1rem;
+      font-size: 1.5em;
     }
     .details li {
-      font-size: 0.7rem;
+      font-size: 0.8rem;
+      text-align: center;
     }
   }
   .btn {
@@ -425,10 +432,45 @@ footer {
   }
 
   .amenities-section {
+    font-size: 1.5em;
     padding-bottom: 0;
     flex-direction: column;
     align-items: center;
   }
+  .amenities-section p {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+  }
+  .footer-container h4 {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 769px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
+  .hero p {
+    font-size: 2rem;
+  }
+  .hero span {
+    font-size: 5rem;
+  }
+  .details-section {
+    h2 {
+      font-size: 1.5em;
+    }
+    .details li {
+      font-size: 0.72rem;
+      text-align: center;
+    }
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
   .amenities-section p {
     padding-bottom: 1rem;
   }
