@@ -187,15 +187,15 @@ a {
 /* HOME Amenities */
 .amenities-section {
   display: flex;
-  align-items: center;
-  min-height: 25vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
   width: 90%;
   margin: auto;
-  padding: 0.75rem 0;
+  padding: 2rem 0;
+
   .box {
-    width: 90%;
     text-align: center;
-    flex-wrap: wrap;
+    padding: 1rem;
   }
   h3 {
     margin: 1rem 0;
@@ -317,7 +317,7 @@ i {
 
 .form {
   width: 66vw;
-  height: 40vh;
+  height: 50vh;
   margin: 2rem;
   background-color: rgba(167, 167, 167, 0.1);
   border-radius: 12px;
@@ -385,6 +385,7 @@ i {
   }
   p {
     font-size: 1.2rem;
+    padding: 1rem;
   }
 }
 
@@ -426,6 +427,8 @@ footer {
       font-size: 1.5em;
     }
     .details li {
+      padding-bottom: 0;
+      margin: 0;
       font-size: 0.8rem;
       text-align: center;
     }
@@ -436,16 +439,6 @@ footer {
     margin: 0.5rem;
   }
 
-  .amenities-section {
-    font-size: 1.5em;
-    padding-bottom: 0;
-    flex-direction: column;
-    align-items: center;
-  }
-  .amenities-section p {
-    font-size: 0.8rem;
-    padding-bottom: 1rem;
-  }
   .footer-container h4 {
     font-size: 0.8rem;
   }
@@ -476,9 +469,6 @@ footer {
     margin: 1rem;
   }
 
-  .amenities-section p {
-    padding-bottom: 1rem;
-  }
   .footer-container h4 {
     font-size: 0.8rem;
   }
