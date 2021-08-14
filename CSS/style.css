@@ -539,13 +539,13 @@ footer {
     font-size: 1.5rem;
   }
   .hero p {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .hero span {
     font-size: 2.5rem;
   }
   .details-section h2 {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
   .details-section .details li {
     padding-bottom: 0;
@@ -554,10 +554,10 @@ footer {
     text-align: center;
   }
   .amenities-section h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .amenities-section p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .btn {
     font-size: 1rem;
@@ -565,7 +565,7 @@ footer {
     margin: 0.5rem;
   }
   .footer-container h4 {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
 
